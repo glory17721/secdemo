@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <title>jQuery Test</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+         <meta charset="UTF-8">
+         <title>jQuery Example</title>
+         <body>
+            <h1>click the button</h1>
+            <h2> Click Duplicate button</h2>
+            <button> Click Me</button>
+         </body>
+    <script>
+            $(document).ready(function() {
+                $("button").click(function() {
+                    $("h2").text("Button Clicked!");
+                    $("h3").text("Button Clicked! Duplicate");
+                });
+            });
+    </script>
+    <body>
+</html>
